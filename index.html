@@ -4,31 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IndustrialProducts4U</title>
+
     <style>
-        /* General Styling */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff; /* Light blue background */
+            background-color: #f0f8ff;
         }
 
-        /* Header Styling */
         header {
-            background-color: #5271ff; /* Vivid Blue */
+            background-color: #5271ff;
             color: white;
             text-align: center;
             padding: 20px 0;
         }
 
-        /* Logo Styling */
         .logo img {
             display: block;
             margin: 0 auto;
             width: 150px;
         }
 
-        /* Contact Section Styling */
         .contact-section {
             background-color: white;
             color: #333;
@@ -37,20 +34,20 @@
             border-bottom: 2px solid #5271ff;
         }
 
-        .contact-section .contact-icons {
+        .contact-icons {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 20px;
             font-size: 0.9em;
+            flex-wrap: wrap;
         }
 
-        .contact-section img {
+        .contact-icons img {
             width: 30px;
             vertical-align: middle;
         }
 
-        /* Section Styling */
         .section {
             padding: 20px;
             text-align: center;
@@ -61,7 +58,6 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* Product Grid Styling */
         .product-images {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -74,13 +70,6 @@
             border-radius: 5px;
         }
 
-        .product-item p {
-            margin-top: 10px;
-            font-size: 1em;
-            color: #333;
-        }
-
-        /* Brands Section Styling */
         .brands img {
             margin: 10px;
             width: 120px;
@@ -88,217 +77,119 @@
             border-radius: 5px;
         }
 
-        /* Footer Styling */
         .footer {
             background-color: #dbe0fa;
-            color: white;
             text-align: center;
             padding: 20px 0;
         }
 
-        /* Social Icons */
-        .social-icons a img {
+        .social-icons img {
             width: 40px;
             margin: 5px;
-            border: none
-        }
-        
-        .social-icons a img:hover {
-            border-color: #f0f8ff; /* Lighter Blue when hovered */
         }
     </style>
 </head>
+
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="logo">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/logo/IP4U_logo.png" alt="Business Logo">
-        </div>
-        <h1>IndustrialProducts4U</h1>
-        <p>Unmatched Quality, Unbeatable Prices</p>
-    </header>
 
-    <!-- Contact Section -->
-    <div class="contact-section">
-        <div class="contact-icons">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/contact/phone.png" alt="Phone"> <span>88-793-706-88</span>
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/contact/email.png" alt="Email"> <span>support@ip4u.in</span>
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/contact/e-store.png" alt="e-Store"> <a href="https://industrialproducts4u.com" target="_blank">e-Store</a>
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/contact/location.png" alt="Location"> <span>Coimbatore</span>
-        </div>
+<header>
+    <div class="logo">
+        <img src="images/logo/IP4U_logo.png" alt="IP4U Logo">
     </div>
+    <h1>IndustrialProducts4U</h1>
+    <p>Unmatched Quality, Unbeatable Prices</p>
+</header>
 
-    <div class="section">
-        <h2>Our Product Range</h2>
-        <div class="product-images">
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/bearing-accessories-1"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/bearing_accessories3.png"  alt="Bearing Accessories">
-                </a>
-                <p>Bearing Accessories</p>
-            </div>
+<div class="contact-section">
+    <div class="contact-icons">
+        <img src="images/contact/phone.png"> <span>88-793-706-88</span>
+        <img src="images/contact/email.png"> <span>support@ip4u.in</span>
+        <img src="images/contact/e-store.png">
+        <a href="https://industrialproducts4u.com" target="_blank">e-Store</a>
+        <img src="images/contact/location.png"> <span>Coimbatore</span>
+    </div>
+</div>
 
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/bearings"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/bearings.png"  alt="Bearings">
-                </a>
-                <p>Bearings</p>
-            </div>
+<div class="section">
+    <h2>Our Product Range</h2>
 
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/soil-and-concrete-testing-equipment"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/construction_supplies.png"  alt="Construction Supplies">
-                </a>
-                <p>Construction Supplies</p>
-            </div>
+    <div class="product-images">
 
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/diy-do-it-yourself-tools-essentials"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/DIY_essentials.png"  alt="DIY Essentials">
-                </a>
-                <p>DIY Essentials</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/electrical-conduits"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/electrical_conduits_and_accessories.jpeg"  alt="Electrical Conduits and Accessories">
-                </a>
-                <p>Electrical Conduits and Accessories</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/garden-tools"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/gardening_tools.png"  alt="Gardening Tools">
-                </a>
-                <p>Gardening Tools</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/washer-and-seals"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/gearbox_pulleys_seals_washer_couplings.png"  alt="Gearbox, Pulleys, Seals, Washer Couplings">
-                </a>
-                <p>Gearbox, Pulleys, Seals, Washer Couplings</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/industrial-safety-wear"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/Industrial_safety_wear.png"  alt="Industrial Safety Wear">
-                </a>
-                <p>Industrial Safety Wear</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/lights-and-luminants"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/lights.png"  alt="LED Lights">
-                </a>
-                <p>LED Lights</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/linear-bearings-1"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/Linear_guides.jpg"  alt="Linear Guides">
-                </a>
-                <p>Linear Guides</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/lubricants"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/lubricants.png"  alt="Lubricants">
-                </a>
-                <p>Lubricants</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/fasteners"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/nuts_bolts_washers_chains_sprockets.png"  alt="Nuts, Bolts, Washers, Chains, Sprockets">
-                </a>
-                <p>Nuts, Bolts, Washers, Chains, Sprockets</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/pipes-fittings"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/pipes_fittings_trolleys_caster_wheels.png"  alt="Pipes, Fittings, Trolleys, Caster Wheels">
-                </a>
-                <p>Pipes, Fittings, Trolleys, Caster Wheels</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/equipments"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/power_tools.png"  alt="Power Tools">
-                </a>
-                <p>Power Tools</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/precision-instruments"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/precision_instruments.png"  alt="Precision Instruments">
-                </a>
-                <p>Precision Instruments</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/pumps-and-switches"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/pumps_and_instruments.jpg"  alt="Pumps and Instruments">
-                </a>
-                <p>Pumps and Instruments</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/valves-and-meters"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/pumps_valves_meters_switches_instruments.png"  alt="Pumps, Valves, Meters, Switches, Instruments">
-                </a>
-                <p>Pumps, Valves, Meters, Switches, Instruments</p>
-            </div>
-
-            <div class="product-item">
-                <a href="https://industrialproducts4u.com/collections/wires-and-cables"  target="_blank">
-                    <img src="https://storage.googleapis.com/www.ip4u.in/images/collections/wires_and_cables.jpeg"  alt="Wires and Cables">
-                </a>
-                <p>Wires and Cables</p>
-            </div>
+        <div class="product-item">
+            <a href="https://industrialproducts4u.com/collections/bearing-accessories-1" target="_blank">
+                <img src="images/collections/bearing_accessories3.png">
+            </a>
+            <p>Bearing Accessories</p>
         </div>
-    </div>
-    <!-- Brands Section -->
-    <div class="section">
-        <h2>Renowned Brands Available</h2>
-        <div class="brands">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/Danfoss.png" alt="Danfoss">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/hkg.png" alt="HKG">
-	    <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/nsk.jpeg" alt="NSK">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/nachi.png" alt="Nachi">
-	    <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/surya.png" alt="Surya">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/makita.png" alt="Makita">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/venus.jpg" alt="Venus">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/nbr.png" alt="NBR">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/anchor.png" alt="Anchor">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/lubcon.png" alt="Lubcon">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/kranti.png" alt="Kranti">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/ntn.jpeg" alt="NTN">
-            <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/skf.jpeg" alt="SKF">
-	    <img src="https://storage.googleapis.com/www.ip4u.in/images/brands/nbc.jpeg" alt="NBC">
-            
-        </div>
-    </div>
 
-    <!-- Brand Video Section -->
-    <div class="section">
-        <h2>Introducing Brand IP4U</h2>
-        <video width="600" controls>
-            <source src="https://storage.googleapis.com/www.ip4u.in/images/logo/circular_logo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <!-- Footer Section -->
-    <div class="footer">
-        <div class="social-icons">
-            <a href="https://wa.me/8879370688" target="_blank"><img src="https://storage.googleapis.com/www.ip4u.in/images/social_media/wa.png" alt="WhatsApp"></a>
-            <a href="https://www.youtube.com/@industrialproducts4u" target="_blank"><img src="https://storage.googleapis.com/www.ip4u.in/images/social_media/yt.png" alt="YouTube"></a>
-            <a href="https://www.facebook.com/profile.php?id=61564394892743" target="_blank"><img src="https://storage.googleapis.com/www.ip4u.in/images/social_media/fb.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/industrialproducts4u/?hl=en" target="_blank"><img src="https://storage.googleapis.com/www.ip4u.in/images/social_media/ig.png" alt="Instagram"></a>
-            <a href="https://x.com/alfamouz_ip4u" target="_blank"><img src="https://storage.googleapis.com/www.ip4u.in/images/social_media/tw.png" alt="Twitter"></a>
-            <a href="https://www.linkedin.com/company/106192511/" target="_blank"><img src="https://storage.googleapis.com/www.ip4u.in/images/social_media/li.png" alt="LinkedIn"></a>
+        <div class="product-item">
+            <a href="https://industrialproducts4u.com/collections/bearings" target="_blank">
+                <img src="images/collections/bearings.png">
+            </a>
+            <p>Bearings</p>
         </div>
+
+        <div class="product-item">
+            <a href="https://industrialproducts4u.com/collections/soil-and-concrete-testing-equipment" target="_blank">
+                <img src="images/collections/construction_supplies.png">
+            </a>
+            <p>Construction Supplies</p>
+        </div>
+
+        <div class="product-item">
+            <a href="https://industrialproducts4u.com/collections/diy-do-it-yourself-tools-essentials" target="_blank">
+                <img src="images/collections/DIY_essentials.png">
+            </a>
+            <p>DIY Essentials</p>
+        </div>
+
+        <div class="product-item">
+            <a href="https://industrialproducts4u.com/collections/electrical-conduits" target="_blank">
+                <img src="images/collections/electrical_conduits_and_accessories.jpeg">
+            </a>
+            <p>Electrical Conduits & Accessories</p>
+        </div>
+
     </div>
+</div>
+
+<div class="section">
+    <h2>Renowned Brands Available</h2>
+    <div class="brands">
+        <img src="images/brands/Danfoss.png">
+        <img src="images/brands/hkg.png">
+        <img src="images/brands/nsk.jpeg">
+        <img src="images/brands/nachi.png">
+        <img src="images/brands/surya.png">
+        <img src="images/brands/makita.png">
+        <img src="images/brands/venus.jpg">
+        <img src="images/brands/nbr.png">
+        <img src="images/brands/anchor.png">
+        <img src="images/brands/lubcon.png">
+        <img src="images/brands/kranti.png">
+        <img src="images/brands/ntn.jpeg">
+        <img src="images/brands/skf.jpeg">
+        <img src="images/brands/nbc.jpeg">
+    </div>
+</div>
+
+<div class="section">
+    <h2>Introducing Brand IP4U</h2>
+    <video width="600" controls>
+        <source src="images/logo/circular_logo.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="footer">
+    <div class="social-icons">
+        <a href="https://wa.me/8879370688"><img src="images/social_media/wa.png"></a>
+        <a href="https://www.youtube.com/@industrialproducts4u"><img src="images/social_media/yt.png"></a>
+        <a href="https://www.facebook.com/profile.php?id=61564394892743"><img src="images/social_media/fb.png"></a>
+        <a href="https://www.instagram.com/industrialproducts4u/?hl=en"><img src="images/social_media/ig.png"></a>
+        <a href="https://x.com/alfamouz_ip4u"><img src="images/social_media/tw.png"></a>
+        <a href="https://www.linkedin.com/company/106192511/"><img src="images/social_media/li.png"></a>
+    </div>
+</div>
+
 </body>
 </html>
